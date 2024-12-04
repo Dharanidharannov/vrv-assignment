@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": "b0cc",
+      "name": "Dharanidharan",
+      "email": "dharanidharan8607@gmail.com",
+      "status": "Active",
+      "roleId": 2
+    },
+    {
+      "id": "0f76",
+      "name": "surya",
+      "email": "surya@gmail.com",
+      "status": "Active",
+      "roleId": 1
+    },
+    {
+      "id": "b80e",
+      "name": "navi ",
+      "email": "navi@gmail.com",
+      "status": "Active",
+      "roleId": 2
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Editor",
+      "permissions": [
+        "read",
+        "write"
+      ]
+    },
+    {
+      "id": "fbe9",
+      "name": "admin",
+      "permissions": [
+        "read"
+      ]
+    }
+  ]
+}
